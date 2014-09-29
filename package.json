@@ -1,0 +1,20 @@
+{
+  "name": "billy-sites",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bvalosek/billy-sites.git"
+  },
+  "scripts": {
+    "start-docserve": "node ./app/docserve/main.js",
+    "build-doc": "jsdoc -c ./jsdoc.json",
+    "start": "npm run start-docserve",
+    "prestart": "npm run build-doc"
+  },
+  "dependencies": {
+    "billy": "^1.5.2",
+    "billy-http-express": "^1.4.2",
+    "jsdoc": "^3.3.0-alpha9",
+    "jsdoc3-bootstrap": "^0.11.2"
+  }
+}

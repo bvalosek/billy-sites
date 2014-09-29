@@ -1,0 +1,16 @@
+{
+  "source":{
+    "include": [
+      "./node_modules/billy/README.md",
+      "./node_modules/billy/package.json",
+      "./node_modules/billy/lib",
+      "./node_modules/billy/node_modules/sack/lib"
+    ]
+  },
+  "plugins": ["plugins/markdown"],
+  "opts": {
+    "template": "./node_modules/jsdoc3-bootstrap",
+    "recurse": true,
+    "destination": "./app/docserve/gen"
+  }
+}
