@@ -13,7 +13,7 @@ app.config('http', {
 // Redirect to current version
 app.service(function redirect(http) {
   http.get('/', function(req, res) {
-    res.redirect('/1.5/');
+    res.redirect('/1.7/');
   });
 });
 
