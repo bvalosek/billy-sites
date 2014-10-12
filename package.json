@@ -8,8 +8,9 @@
   "scripts": {
     "start-docserve": "node ./app/docserve/main.js",
     "build-doc": "jsdoc -c ./jsdoc.json",
+    "build-all-docs": "./build-doc.sh",
     "start": "npm run start-docserve",
-    "prestart": "npm run build-doc"
+    "prestart": "npm run build-all-docs"
   },
   "dependencies": {
     "billy": "^1.7.0",
