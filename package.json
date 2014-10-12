@@ -16,6 +16,6 @@
     "billy": "^1.7.0",
     "billy-http-express": "^1.4.2",
     "jsdoc": "^3.3.0-alpha9",
-    "jsdoc3-bootstrap": "^0.11.2"
+    "jsdoc3-bootstrap": "^0.14.0"
   }
 }
